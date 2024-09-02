@@ -41,8 +41,7 @@ const Nav = () => {
                             "text-accent border-b-2 border-accent"
                         } capitalize font-medium hover:text-accent translation-all`}>
                         {link.name}
-                    </Link>
-                    
+                    </Link>  
                 );
             })}
         </nav>
