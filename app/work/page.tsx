@@ -1,3 +1,6 @@
+"use client";
+
+import {} from 'framer-motion'
 
  const Work = () => {
     return (
