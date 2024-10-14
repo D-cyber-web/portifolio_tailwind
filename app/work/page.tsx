@@ -144,14 +144,16 @@ const projects = [
                                         </div>
                                         {/*image*/}
                                         <div className='relative w-ful h-full'>
-                                            <Image src={project.image} fill className="object-cover" alt="" />
+                                            <Image fill src={project.image} className="object-cover" alt="" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
                                         </div>
                                         </div>
                                     </SwiperSlide>
                                 );
                             })}
                             {/*slider buttons*/}
-                            <WorkSliderBtns />
+                            <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-bettwen xl:w-max xl:justify-none"
+                                            btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
+                            />
                         </Swiper>
                     </div>
                 </div>
