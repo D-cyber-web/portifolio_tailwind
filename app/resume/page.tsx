@@ -14,7 +14,7 @@ import { SiTailwindcss, SiNextdotjs} from "react-icons/si";
 //about data
 const about = {
     title: 'About Me',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corrupti velit nisi at, delectus ut eligendi labore explicabo eaque.",
+    description: "        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt corporis fugiat vel optio dolor culpa saepe consequuntur autem delectus quibusdam repellat amet aliquid expedita, asperiores placeat, quis exercitationem quidem.",
     info: [
         {
             fieldName: "Name",
@@ -55,7 +55,7 @@ const about = {
 const experience = {
     icon: '/assets/resume/mi.svg',
     title: 'My experinece',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corrupti velit nisi at, delectus ut eligendi labore explicabo eaque.",
+    description: "        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt corporis fugiat vel optio dolor culpa saepe consequuntur autem delectus quibusdam repellat amet aliquid expedita, asperiores placeat, quis exercitationem quidem.",
     items: [
         {
             company: "Mastermind Tech Solutions",
@@ -89,7 +89,7 @@ const experience = {
 const education = {
     icon: '/assets/resume/dude.svg',
     title: 'My Education',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corrupti velit nisi at, delectus ut eligendi labore explicabo eaque.",
+    description: "        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt corporis fugiat vel optio dolor culpa saepe consequuntur autem delectus quibusdam repellat amet aliquid expedita, asperiores placeat, quis exercitationem quidem.",
     items: [
         {
             institution: "Online Course Platform",
@@ -122,7 +122,7 @@ const education = {
 //skills data
 const skills = {
     title: 'My Skills',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corrupti velit nisi at, delectus ut eligendi labore explicabo eaque.",
+    description: "        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt corporis fugiat vel optio dolor culpa saepe consequuntur autem delectus quibusdam repellat amet aliquid expedita, asperiores placeat, quis exercitationem quidem.",
     skillList: [
         {
             icon: <FaHtml5 />,

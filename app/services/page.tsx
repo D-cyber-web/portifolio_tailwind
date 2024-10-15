@@ -10,25 +10,25 @@ const services = [
     {
         num: "01",
         title: "Web Development",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vel ex quam et, nemo itaque facilis atque.",
+        description: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni incidunt officiis quam non molestiae. Beatae eveniet obcaecati aspernatur, cumque distinctio commodi natus numquam culpa. Cumque sapiente numquam debitis expedita reprehenderit.",
         href: ""
     },
     {
         num: "02",
         title: "UI/UX Design",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vel ex quam et, nemo itaque facilis atque.",
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni incidunt officiis quam non molestiae. Beatae eveniet obcaecati aspernatur, cumque distinctio commodi natus numquam culpa. Cumque sapiente numquam debitis expedita reprehenderit.",
         href: ""
     },
     {
         num: "03",
         title: "Logo Design",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vel ex quam et, nemo itaque facilis atque.",
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni incidunt officiis quam non molestiae. Beatae eveniet obcaecati aspernatur, cumque distinctio commodi natus numquam culpa. Cumque sapiente numquam debitis expedita reprehenderit.",
         href: ""
     },
     {
         num: "04",
         title: "SEO",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vel ex quam et, nemo itaque facilis atque.",
+        description: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni incidunt officiis quam non molestiae. Beatae eveniet obcaecati aspernatur, cumque distinctio commodi natus numquam culpa. Cumque sapiente numquam debitis expedita reprehenderit.",
         href: ""
     },
 ]

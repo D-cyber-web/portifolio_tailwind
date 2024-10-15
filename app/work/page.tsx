@@ -20,7 +20,7 @@ const projects = [
         num: '01',
         category: 'frontend',
         title: 'project 1',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur delectus ut eligendi labore explicabo eaque.",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cupiditate laboriosam fuga, tempore consectetur eum nisi consequatur voluptatem necessitatibus esse tempora quaerat, excepturi illo modi similique vel molestiae! Explicabo, at.",
         stack: [{ name: "Html 5"}, { name: "Css 3"}, { name:"Laravel" }],
         image: "/assets/work/hehe1.png",
         live: "",
@@ -30,9 +30,9 @@ const projects = [
         num: '02',
         category: 'fullstack',
         title: 'project 2',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur delectus ut eligendi labore explicabo eaque.",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cupiditate laboriosam fuga, tempore consectetur eum nisi consequatur voluptatem necessitatibus esse tempora quaerat, excepturi illo modi similique vel molestiae! Explicabo, at.",
         stack: [{ name: "Next.js"}, { name: "Tailwind.css"}, { name:"Node.js" }],
-        image: "/assets/work/hehe2.jpeg",
+        image: "/assets/work/hehe2.png",
         live: "",
         github: "",
     },
@@ -40,9 +40,9 @@ const projects = [
         num: '03',
         category: 'frontend',
         title: 'project 3',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur delectus ut eligendi labore explicabo eaque.",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cupiditate laboriosam fuga, tempore consectetur eum nisi consequatur voluptatem necessitatibus esse tempora quaerat, excepturi illo modi similique vel molestiae! Explicabo, at.",
         stack: [{ name: "Html 5"}, { name: "Css 3"}, { name:"Javascript" }],
-        image: "/assets/work/hehe3.jpeg",
+        image: "/assets/work/hehe3.png",
         live: "",
         github: "",
     },
@@ -50,9 +50,9 @@ const projects = [
         num: '04',
         category: 'frontend',
         title: 'project 4',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur delectus ut eligendi labore explicabo eaque.",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cupiditate laboriosam fuga, tempore consectetur eum nisi consequatur voluptatem necessitatibus esse tempora quaerat, excepturi illo modi similique vel molestiae! Explicabo, at.",
         stack: [{ name: "Html 5"}, { name: "Css 3"}],
-        image: "/assets/work/hehe4.jpeg",
+        image: "/assets/work/hehe4.png",
         live: "",
         github: "",
     },
@@ -143,8 +143,8 @@ const projects = [
 
                                         </div>
                                         {/*image*/}
-                                        <div className='relative w-ful h-full'>
-                                            <Image fill src={project.image} className="object-cover" alt="" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
+                                        <div className='relative w-full h-[440px]'>
+                                            <Image fill src={project.image} className="object-cover" alt=""  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
                                         </div>
                                         </div>
                                     </SwiperSlide>
@@ -152,8 +152,7 @@ const projects = [
                             })}
                             {/*slider buttons*/}
                             <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-bettwen xl:w-max xl:justify-none"
-                                            btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
-                            />
+                            btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all" iconsStyles={undefined}                            />
                         </Swiper>
                     </div>
                 </div>
