@@ -1,3 +1,5 @@
+"use client";
+
 import { Icon } from "lucide-react";
 import Link from "next/link";
 
@@ -9,19 +11,23 @@ const socials = [
     {icon: <FaYoutube />, path:""},
     {icon: <FaTwitter />, path:""},
 ]
+interface SocialProps {
+  containerStyles?: string; // Optional styles
+  iconStyles?: string;      // Optional styles
+}
 
-const Social = ({containerStyles, iconStyles}) => {
-    return (
-        <div className={containerStyles}>
-            {socials.map((item, index) => {
-                return (
-                    <Link key={index} href={item.path} className={iconStyles} >
-                        {item.icon}
-                    </Link>
-                );            
-            })}
-        </div>
-    )
- }
+const Social = ({ containerStyles, iconStyles }: SocialProps) => {
+  return (
+    <div className={containerStyles}>
+      {socials.map((item, index) => {
+        return (
+          <Link key={index} href={item.path} className={iconStyles} target="_blank" rel="noopener noreferrer">
+            {item.icon}
+          </Link>
+        );
+      })}
+    </div>
+  );
+};
 
- export default Social;
+export default Social;
